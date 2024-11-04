@@ -43,16 +43,37 @@ Here are examples of valid configuration files:
   PRODUCER 1
   30
   queue size = 5
+  
   PRODUCER 2
   25
   queue size = 3
+  
+  PRODUCER 3
+   16
+   queue size = 30
+
+  
+   Co-Editor queue size =
+   17
+  ```
+
+  
 
 - **Option 2**:
  ```plaintext
-PRODUCER 3
-16
-queue size = 30
-Co-Editor queue size = 17
+ 1
+ 30
+ 5
+
+ 2
+ 25
+ 3
+
+ 3
+ 16
+ 30
+
+ 17
 ```
 
 These configurations specify the number of products each producer will create and the size of each producer queue and the Co-Editors' shared queue.
