@@ -8,7 +8,7 @@ This project is designed to provide hands-on experience with concurrent programm
 - **Dispatcher**: The dispatcher processes messages from the producer queues and sends them to three Co-Editors through designated queues for each message type.
 - **Co-Editors**: These components manage messages from the dispatcher and communicate with the Screen Manager via a shared queue.
 - **Screen Manager**: The screen manager retrieves messages from the Co-Editors' shared queue and displays the system's output.
-- 
+  
 ![image](https://github.com/user-attachments/assets/c4d5aaec-1c3b-4bf5-999e-a0e38f086454)
 
 ## Bounded Buffer
@@ -49,8 +49,8 @@ Here are examples of valid configuration files:
   queue size = 3
   
   PRODUCER 3
-   16
-   queue size = 30
+  16
+  queue size = 30
 
   
   Co-Editor queue size = 17
