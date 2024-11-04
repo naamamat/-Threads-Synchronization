@@ -59,21 +59,21 @@ Here are examples of valid configuration files:
   
 
 - **Option 2**:
- ```plaintext
- 1
- 30
- 5
-
- 2
- 25
- 3
-
- 3
- 16
- 30
-
- 17
-```
+   ```plaintext
+   1
+   30
+   5
+  
+   2
+   25
+   3
+  
+   3
+   16
+   30
+  
+   17
+  ```
 
 These configurations specify the number of products each producer will create and the size of each producer queue and the Co-Editors' shared queue.
 
