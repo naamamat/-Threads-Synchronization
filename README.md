@@ -53,8 +53,7 @@ Here are examples of valid configuration files:
    queue size = 30
 
   
-   Co-Editor queue size =
-   17
+  Co-Editor queue size = 17
   ```
 
   
