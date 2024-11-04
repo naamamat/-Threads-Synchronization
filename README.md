@@ -31,7 +31,7 @@ PRODUCER n
 queue size = [size]
 
 Co-Editor queue size = [size]
-
+```
 
 ### Example Configurations
 Here are examples of valid configuration files:
@@ -51,25 +51,27 @@ PRODUCER 3
 16
 queue size = 30
 Co-Editor queue size = 17
+```
 
 These configurations specify the number of products each producer will create and the size of each producer queue and the Co-Editors' shared queue.
 
-How to Run
+### How to Run
 Follow these steps to compile and execute the project:
 
-Navigate to the project directory:
+#### Navigate to the project directory:
 
-bash
+```bash
 Copy code
 cd Threads-Synchronization
 Build the project using make:
 
-bash
+```bash
 Copy code
 make
 Run the program with the configuration file:
 
-bash
+```bash
 Copy code
 ./ex3.out conf.txt
+
 Ensure that the configuration file conf.txt is in the project directory or specify the correct path to it.
