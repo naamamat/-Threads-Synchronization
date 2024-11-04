@@ -58,9 +58,9 @@ Co-Editor queue size = 17
 These configurations specify the number of products each producer will create and the size of each producer queue and the Co-Editors' shared queue.
 
 ### How to Run
-Follow these steps to compile and execute the project:
+####Follow these steps to compile and execute the project:
 
-#### Navigate to the project directory:
+Navigate to the project directory:
 
 ```bash
 cd Threads-Synchronization
