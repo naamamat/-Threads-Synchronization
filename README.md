@@ -8,6 +8,8 @@ This project is designed to provide hands-on experience with concurrent programm
 - **Dispatcher**: The dispatcher processes messages from the producer queues and sends them to three Co-Editors through designated queues for each message type.
 - **Co-Editors**: These components manage messages from the dispatcher and communicate with the Screen Manager via a shared queue.
 - **Screen Manager**: The screen manager retrieves messages from the Co-Editors' shared queue and displays the system's output.
+- 
+![image](https://github.com/user-attachments/assets/c4d5aaec-1c3b-4bf5-999e-a0e38f086454)
 
 ## Bounded Buffer
 Both the Producer queues and the shared queue for the Co-Editors are bounded buffers, supporting efficient concurrent message passing between components.
@@ -61,17 +63,17 @@ Follow these steps to compile and execute the project:
 #### Navigate to the project directory:
 
 ```bash
-Copy code
 cd Threads-Synchronization
+```
 Build the project using make:
 
 ```bash
-Copy code
 make
+```
 Run the program with the configuration file:
 
 ```bash
-Copy code
 ./ex3.out conf.txt
+```
 
 Ensure that the configuration file conf.txt is in the project directory or specify the correct path to it.
