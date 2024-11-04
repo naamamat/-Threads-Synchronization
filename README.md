@@ -1,1 +1,1 @@
-# -Threads-Synchronization
+# Threads Synchronization
